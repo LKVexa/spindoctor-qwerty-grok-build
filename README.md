@@ -12,6 +12,10 @@ skill, five slash commands and a helper subagent.
 Version 1.1.0 - engine 1.1.0 (SpinDoctor 3.1.2 parity) - tested with Grok Build 1.0.50 - Python 3.8+, standard library only - no
 network, no account and no keys for the plugin itself.
 
+**Not using Grok Build?** This repo is the plugin for the Grok Build coding CLI (`grok`). For Grok Bot and other agents that load
+Agent Skills folders, use [spindoctor-qwerty-grok-bot-skill](https://github.com/LKVexa/spindoctor-qwerty-grok-bot-skill): the same
+engine and reports as a single `SKILL.md` folder that the agent runs through its shell.
+
 ## Install
 
 ```bash
