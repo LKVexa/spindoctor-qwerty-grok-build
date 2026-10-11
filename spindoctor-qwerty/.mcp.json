@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "spindoctor-qwerty": {
+      "type": "stdio",
+      "command": "python3",
+      "args": [
+        "${GROK_PLUGIN_ROOT}/skills/spindoctor-qwerty/scripts/spindoctor_mcp.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}
